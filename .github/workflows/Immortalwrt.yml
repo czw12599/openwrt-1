@@ -3,12 +3,12 @@
 #
 #
 
-name: Immortalwrt-天灵
+name: hanwckf
 on:
   workflow_dispatch:
     inputs:
       REPO_BRANCH:
-        description: '天灵源码-请选择分支'
+        description: 'hanwckf源码-请选择分支'
         required: true
         default: 'openwrt-21.02'
         type: choice
